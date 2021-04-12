@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    background-image: url('Web\ background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+#header{
+	padding: 30px 0px 0px 600px;
+	color: black;
+    
+}
+#header a{
+	display: inline-block;
+	padding: 0px 70px 0px 10px;
+}
+#navbar{
+	justify-content: center;
+	overflow:hidden;
+	box-sizing: border-box;
+	color: white;
+    padding: 30px 0px 0px 633px;
+}
+#navbar a{
+	font-family: candara;
+	font-size: larger;
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 13px 30px;
+	text-decoration: none;
+}
+#navbar a.active{
+	background-color: white;
+	color: black;
+}
+#navbar a:hover:not(.active){
+	background-color: white;
+	color: black;
+}
+#main {   
+    flex: 70%;
+    padding: 50px;
+}
+#main a.left{
+    padding: 50px 50px 50px 150px;
+    float: left;
+}
+#main a.right{
+    padding: 50px 150px 50px 50px;
+    float: right;
+}
+#main a.besar{
+    padding: 50px 250px 50px 50px;
+    float: right;
+}
+#main section.left{
+    padding: 50px 50px 50px 150px;
+    float: left;
+}
+#main section.right{
+    padding: 50px 150px 50px 50px;
+    float: right;
+}

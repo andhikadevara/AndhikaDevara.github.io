@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Andhika Devara</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <a href="Potof.html">
+                <img src="Andhika Devara.png" width="300px" alt="logo">
+            </a>
+        </div>
+        <nav id="navbar">
+			<a href="#" class="active">WORK</a>
+			<a href="#">CONTACT</a>
+        </nav>
+        <div id="main">
+            <a href="#" class="left">
+                <img src="content1.jpg" width="500px" alt="logo">
+            </a>
+            <a href="#" class="right">
+                <img src="content2.jpg" width="500px" alt="logo">
+            </a>
+            <a href="#" class="left">
+                <img src="content3.jpg" width="500px" alt="logo">
+            </a>
+            <a href="#" class="right">
+                <img src="content4.png" width="500px" alt="logo">
+            </a>
+            <a href="#" class="left">
+                <img src="content5.png" width="500px" alt="logo">
+            </a>
+            <a href="#" class="right">
+                <img src="content6.jpg" width="500px" alt="logo">
+            </a>
+            <a href="#" class="besar">
+                <img src="content7.jpg" height="500px" alt="logo">
+            </a>
+            <a href="#" class="left">
+                <img src="content8.jpg" width="500px" alt="logo">
+            </a>
+            <a href="#" class="right">
+                <img src="content9.png" width="500px" alt="logo">
+            </a>
+            <a href="#" class="left">
+                <img src="content10.jpg" width="500px" alt="logo">
+            </a>
+            <a href="#" class="right">
+                <img src="content11.jpg" width="500px" alt="logo">
+            </a>
+            <a href="#" class="left">
+                <img src="content12.jpg" width="500px" alt="logo">
+            </a>
+            <a href="#" class="right">
+                <img src="content13.jpg" width="500px" alt="logo">
+            </a>
+            <section class="left"> 
+                <img class="mySlides" src="slide1.jpg"
+                width="500px">
+                <img class="mySlides" src="Slide2.jpg"
+                width="500px">
+                <img class="mySlides" src="Slide3.jpg"
+                width="500px">
+                <img class="mySlides" src="Slide4.jpg"
+                width="500px">
+            </section>
+            <section class="right"> 
+                <img class="mySlides2" src="slide8.jpg"
+                width="500px">
+                <img class="mySlides2" src="slide5.jpg"
+                width="500px">
+                <img class="mySlides2" src="slide6.jpg"
+                width="500px">
+                <img class="mySlides2" src="slide7.jpg"
+                width="500px">
+            </section>
+        </div>
+        <script>
+            var myIndex = 0;
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 3000);
+            }
+
+            var myIndex2 = 0;
+            var myIndex2 = 0;
+            carousel2();
+
+            function carousel2() {
+            var j;
+            var y = document.getElementsByClassName("mySlides2");
+            for (j = 0; j < y.length; j++) {
+                y[j].style.display = "none";
+            }
+            myIndex2++;
+            if (myIndex2 > y.length) {myIndex2 = 1}
+            y[myIndex2-1].style.display = "block";
+            setTimeout(carousel2, 3000);
+            }
+        </script>
+    </body>
+</html>
