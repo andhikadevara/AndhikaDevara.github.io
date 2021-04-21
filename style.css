@@ -39,27 +39,610 @@ body{
 	background-color: white;
 	color: black;
 }
-#main {   
+#URS{   
     flex: 70%;
     padding: 50px;
+	float: left;
 }
-#main a.left{
-    padding: 50px 50px 50px 150px;
+#URS h1{
+	font-family: Arial;
+	color: white;
+}
+#URS a.left{
+    padding: 50px 50px 50px 50px;
     float: left;
 }
-#main a.right{
+#URS a.center{
+    padding: 50px 0px 50px 0px;
+    float: left;
+}
+#URS a.right{
+    padding: 50px 50px 50px 50px;
+    float: right;
+}
+#URS section.left{
+    padding: 50px 50px 50px 50px;
+    float: left;
+}
+#URS section.center{
+    padding: 50px 0px 50px 0px;
+    float: left;
+}
+#URS section.right{
     padding: 50px 150px 50px 50px;
     float: right;
 }
-#main a.besar{
-    padding: 50px 250px 50px 50px;
-    float: right;
+
+#BVES{   
+    flex: 70%;
+    padding: 50px;
+	float: left;
 }
-#main section.left{
-    padding: 50px 50px 50px 150px;
+#BVES h1{
+	font-family: Arial;
+	color: white;
+}
+#BVES a.left{
+    padding: 50px 50px 50px 50px;
     float: left;
 }
-#main section.right{
-    padding: 50px 150px 50px 50px;
+#BVES a.center{
+    padding: 50px 0px 50px 0px;
+    float: left;
+}
+#BVES a.right{
+    padding: 50px 50px 50px 50px;
     float: right;
+}
+
+#DINZ{   
+    flex: 70%;
+    padding: 50px;
+	float: left;
+}
+#DINZ h1{
+	font-family: Arial;
+	color: white;
+}
+#DINZ a.left{
+    padding: 50px 50px 50px 50px;
+    float: left;
+}
+#DINZ a.center{
+    padding: 50px 0px 50px 0px;
+    float: left;
+}
+#DINZ a.right{
+    padding: 50px 50px 50px 50px;
+    float: right;
+}
+
+#ASA{   
+    flex: 70%;
+    padding: 50px;
+	float: left;
+}
+#ASA h1{
+	font-family: Arial;
+	color: white;
+}
+#ASA a.left{
+    padding: 50px 50px 50px 50px;
+    float: left;
+}
+#ASA a.center{
+    padding: 50px 0px 50px 0px;
+    float: left;
+}
+#ASA a.right{
+    padding: 50px 50px 50px 50px;
+    float: right;
+}
+
+#MGT{   
+    flex: 70%;
+    padding: 50px;
+	float: left;
+}
+#MGT h1{
+	font-family: Arial;
+	color: white;
+}
+#MGT a.left{
+    padding: 50px 50px 50px 50px;
+    float: left;
+}
+#MGT a.center{
+    padding: 50px 0px 50px 0px;
+    float: left;
+}
+#MGT a.right{
+    padding: 50px 50px 50px 50px;
+    float: right;
+}
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+	#header{
+		padding: 30px 0px 0px 480px;
+		color: black;
+		
+	}
+	#header a{
+		display: inline-block;
+		padding: 0px 70px 0px 10px;
+	}
+	#navbar{
+		justify-content: center;
+		overflow:hidden;
+		box-sizing: border-box;
+		color: white;
+		padding: 30px 0px 0px 513px;
+	}
+	#navbar a{
+		font-family: candara;
+		font-size: larger;
+		float: left;
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 13px 30px;
+		text-decoration: none;
+	}
+	#navbar a.active{
+		background-color: white;
+		color: black;
+	}
+	#navbar a:hover:not(.active){
+		background-color: white;
+		color: black;
+	}
+	#URS{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#URS h1{
+		font-family: Arial;
+		color: white;
+	}
+	#URS a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#URS a.center{
+		padding: 50px 0px 50px 0px;
+		float: left;
+	}
+	#URS a.right{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#URS section.left{
+		padding: 50px 50px 50px 0px;
+		float: left;
+	}
+	#URS section.center{
+		padding: 50px 50px 50px 0px;
+		float: left;
+	}
+	#URS section.right{
+		padding: 50px 150px 50px 50px;
+		float: right;
+	}
+	
+	#BVES{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#BVES h1{
+		font-family: Arial;
+		color: white;
+	}
+	#BVES a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#BVES a.center{
+		padding: 50px 0px 50px 0px;
+		float: left;
+	}
+	#BVES a.right{
+		padding: 50px 50px 50px 50px;
+		float: right;
+	}
+	
+	#DINZ{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#DINZ h1{
+		font-family: Arial;
+		color: white;
+	}
+	#DINZ a.left{
+		padding: 50px 50px 50px 350px;
+		float: left;
+	}
+	#DINZ a.center{
+		padding: 50px 0px 50px 200px;
+		float: left;
+	}
+	#DINZ a.right{
+		padding: 50px 50px 50px 50px;
+		float: right;
+	}
+	
+	#ASA{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#ASA h1{
+		font-family: Arial;
+		color: white;
+	}
+	#ASA a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#ASA a.center{
+		padding: 50px 0px 50px 0px;
+		float: left;
+	}
+	#ASA a.right{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	
+	#MGT{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#MGT h1{
+		font-family: Arial;
+		color: white;
+	}
+	#MGT a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#MGT a.center{
+		padding: 50px 0px 50px 0px;
+		float: left;
+	}
+	#MGT a.right{
+		padding: 50px 50px 50px 50px;
+		float: right;
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+	#header{
+		padding: 30px 0px 0px 260px;
+		color: black;
+		
+	}
+	#header a{
+		display: inline-block;
+		padding: 0px 70px 0px 10px;
+	}
+	#navbar{
+		justify-content: center;
+		overflow:hidden;
+		box-sizing: border-box;
+		color: white;
+		padding: 30px 0px 0px 300px;
+	}
+	#navbar a{
+		font-family: candara;
+		font-size: larger;
+		float: left;
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 13px 30px;
+		text-decoration: none;
+	}
+	#navbar a.active{
+		background-color: white;
+		color: black;
+	}
+	#navbar a:hover:not(.active){
+		background-color: white;
+		color: black;
+	}
+	#URS{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#URS h1{
+		font-family: Arial;
+		color: white;
+	}
+	#URS a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#URS a.center{
+		padding: 50px 0px 50px 150px;
+		float: left;
+	}
+	#URS a.right{
+		padding: 50px 120px 50px 50px;
+		float: right;
+	}
+	#URS section.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#URS section.center{
+		padding: 50px 0px 50px 150px;
+		float: left;
+	}
+	#URS section.right{
+		padding: 50px 150px 50px 50px;
+		float: right;
+	}
+	
+	#BVES{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#BVES h1{
+		font-family: Arial;
+		color: white;
+	}
+	#BVES a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#BVES a.center{
+		padding: 50px 0px 50px 150px;
+		float: left;
+	}
+	#BVES a.right{
+		padding: 50px 120px 50px 50px;
+		float: right;
+	}
+	
+	#DINZ{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#DINZ h1{
+		font-family: Arial;
+		color: white;
+	}
+	#DINZ a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#DINZ a.center{
+		padding: 50px 0px 50px 0px;
+		float: left;
+	}
+	#DINZ a.right{
+		padding: 50px 120px 50px 50px;
+		float: right;
+	}
+	
+	#ASA{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#ASA h1{
+		font-family: Arial;
+		color: white;
+	}
+	#ASA a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#ASA a.center{
+		padding: 50px 0px 50px 150px;
+		float: left;
+	}
+	#ASA a.right{
+		padding: 50px 120px 50px 50px;
+		float: right;
+	}
+	
+	#MGT{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#MGT h1{
+		font-family: Arial;
+		color: white;
+	}
+	#MGT a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#MGT a.center{
+		padding: 50px 0px 50px 150px;
+		float: left;
+	}
+	#MGT a.right{
+		padding: 50px 120px 50px 50px;
+		float: right;
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 400px) {
+	#header{
+		padding: 30px 0px 0px 260px;
+		color: black;
+		
+	}
+	#header a{
+		display: inline-block;
+		padding: 0px 70px 0px 10px;
+	}
+	#navbar{
+		justify-content: center;
+		overflow:hidden;
+		box-sizing: border-box;
+		color: white;
+		padding: 30px 0px 0px 260px;
+	}
+	#navbar a{
+		font-family: candara;
+		font-size: larger;
+		float: left;
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 13px 30px;
+		text-decoration: none;
+	}
+	#navbar a.active{
+		background-color: white;
+		color: black;
+	}
+	#navbar a:hover:not(.active){
+		background-color: white;
+		color: black;
+	}
+	#URS{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#URS h1{
+		font-family: Arial;
+		color: white;
+	}
+	#URS a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#URS a.center{
+		padding: 50px 0px 50px 150px;
+		float: left;
+	}
+	#URS a.right{
+		padding: 50px 50px 50px 50px;
+		float: right;
+	}
+	#URS section.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#URS section.center{
+		padding: 50px 0px 50px 150px;
+		float: left;
+	}
+	#URS section.right{
+		padding: 50px 150px 50px 50px;
+		float: right;
+	}
+	
+	#BVES{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#BVES h1{
+		font-family: Arial;
+		color: white;
+	}
+	#BVES a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#BVES a.center{
+		padding: 50px 0px 50px 150px;
+		float: left;
+	}
+	#BVES a.right{
+		padding: 50px 50px 50px 50px;
+		float: right;
+	}
+	
+	#DINZ{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#DINZ h1{
+		font-family: Arial;
+		color: white;
+	}
+	#DINZ a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#DINZ a.center{
+		padding: 50px 0px 50px 0px;
+		float: left;
+	}
+	#DINZ a.right{
+		padding: 50px 50px 50px 50px;
+		float: right;
+	}
+	
+	#ASA{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#ASA h1{
+		font-family: Arial;
+		color: white;
+	}
+	#ASA a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#ASA a.center{
+		padding: 50px 0px 50px 150px;
+		float: left;
+	}
+	#ASA a.right{
+		padding: 50px 50px 50px 50px;
+		float: right;
+	}
+	
+	#MGT{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#MGT h1{
+		font-family: Arial;
+		color: white;
+	}
+	#MGT a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#MGT a.center{
+		padding: 50px 0px 50px 150px;
+		float: left;
+	}
+	#MGT a.right{
+		padding: 50px 50px 50px 50px;
+		float: right;
+	}
 }
