@@ -95,6 +95,28 @@ body{
     float: right;
 }
 
+#KILAS{   
+    flex: 70%;
+    padding: 50px;
+	float: left;
+}
+#KILAS h1{
+	font-family: Arial;
+	color: white;
+}
+#KILAS a.left{
+    padding: 50px 50px 50px 50px;
+    float: left;
+}
+#KILAS a.center{
+    padding: 50px 0px 50px 0px;
+    float: left;
+}
+#KILAS a.right{
+    padding: 50px 50px 50px 50px;
+    float: right;
+}
+
 #DINZ{   
     flex: 70%;
     padding: 50px;
@@ -165,7 +187,7 @@ body{
 
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1350px) {
 	#header{
 		padding: 30px 0px 0px 480px;
 		color: black;
@@ -252,6 +274,28 @@ body{
 		float: left;
 	}
 	#BVES a.right{
+		padding: 50px 50px 50px 50px;
+		float: right;
+	}
+
+	#KILAS{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#KILAS h1{
+		font-family: Arial;
+		color: white;
+	}
+	#KILAS a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#KILAS a.center{
+		padding: 50px 0px 50px 0px;
+		float: left;
+	}
+	#KILAS a.right{
 		padding: 50px 50px 50px 50px;
 		float: right;
 	}
@@ -417,6 +461,28 @@ body{
 		padding: 50px 120px 50px 50px;
 		float: right;
 	}
+
+	#KILAS{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#KILAS h1{
+		font-family: Arial;
+		color: white;
+	}
+	#KILAS a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#KILAS a.center{
+		padding: 50px 0px 50px 150px;
+		float: left;
+	}
+	#KILAS a.right{
+		padding: 50px 50px 50px 50px;
+		float: right;
+	}
 	
 	#DINZ{   
 		flex: 70%;
@@ -576,6 +642,28 @@ body{
 		float: left;
 	}
 	#BVES a.right{
+		padding: 50px 50px 50px 50px;
+		float: right;
+	}
+
+	#KILAS{   
+		flex: 70%;
+		padding: 50px;
+		float: left;
+	}
+	#KILAS h1{
+		font-family: Arial;
+		color: white;
+	}
+	#KILAS a.left{
+		padding: 50px 50px 50px 150px;
+		float: left;
+	}
+	#KILAS a.center{
+		padding: 50px 0px 50px 150px;
+		float: left;
+	}
+	#KILAS a.right{
 		padding: 50px 50px 50px 50px;
 		float: right;
 	}
